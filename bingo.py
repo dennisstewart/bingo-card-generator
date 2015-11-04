@@ -82,12 +82,6 @@ def genboard(outname): #creates, fills, and writes a board
     writeboard(newboard, outname)
     return
 
-###filenames
-common = loadfile('sample_common')
-uncommon = loadfile('sample_uncommon')
-rare = loadfile('sample_rare')
-ultrarare = loadfile('sample_ultrarare')
-legendary = loadfile('sample_legendary')
 
 ###execution
 random.seed(time.time())
